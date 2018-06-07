@@ -9,7 +9,13 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "products": {
-    "items":{"currentPage":1,"pageCount":5,"products":[{"title":"Food 1","image":"/img/product2_640x426.jpg","copy":"Lorem ipsum dolor sit 1 amet consequitur sine nice fun"},{"title":"Food 2","image":"/img/product3_640x426.jpg","copy":"Lorem ipsum dolor sit 2 amet consequitur sine nice fun"},{"title":"Food 3","image":"/img/product4_640x426.jpg","copy":"Lorem ipsum dolor sit 3 amet consequitur sine nice fun"},{"title":"Food 4","image":"/img/product5_640x408.jpg","copy":"Lorem ipsum dolor sit 4 amet consequitur sine nice fun"}]}
+    "items":{"currentPage":1,"pageCount":5,
+             "products":[
+               {"title":"Food 1","image":"/img/product2_640x426.jpg","copy":"Lorem ipsum dolor sit 1 amet consequitur sine nice fun", "colors": ["blue", "purple"]},
+               {"title":"Food 2","image":"/img/product3_640x426.jpg","copy":"Lorem ipsum dolor sit 2 amet consequitur sine nice fun", "colors": ["red", "white"]},
+               {"title":"Food 3","image":"/img/product4_640x426.jpg","copy":"Lorem ipsum dolor sit 3 amet consequitur sine nice fun", "colors": ["yellow", "purple"]},
+               {"title":"Food 4","image":"/img/product5_640x408.jpg","copy":"Lorem ipsum dolor sit 4 amet consequitur sine nice fun", "colors": ["blue"]}
+             ]}
   }
 }
 
